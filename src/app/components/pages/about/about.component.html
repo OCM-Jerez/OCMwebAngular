@@ -1,14 +1,14 @@
 <app-header></app-header>
 <!--====== PAGE TITLE PART START ======-->
-<div class="page-title-area" >
+<div class="page-title-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-title-item text-center">
-                    <h2 class="title" style = "color: #0376A7">Sobre nosotros</h2>
+                    <h2 id="demotext">Sobre nosotros</h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a routerLink='/'  style = "color: white">Inicio </a></li>
+                            <li class="breadcrumb-item"><a routerLink='/' style="color: white">Inicio </a></li>
                             <!-- <li class="breadcrumb-item active" aria-current="page">About</li> -->
                         </ol>
                     </nav>
@@ -20,63 +20,24 @@
 <!--====== PAGE TITLE PART ENDS ======-->
 
 <!--====== ABOUT EXPERIENCE PART START ======-->
-<div class="about-experience-area pb-120">
+<div class="about-experience-area pb-20">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
                 <div class="experience-item">
                     <span>¿Quienes somos?</span>
-                    <h5 class="title">Personas interesadas en promover un gobierno abierto en el Ayuntamiento de Jerez.</h5>
-                </div> <!-- experience item -->
+                    <h3>Personas interesadas en promover un gobierno abierto en el Ayuntamiento de Jerez.</h3>
+                </div>
             </div>
             <div class="col-lg-6 offset-lg-1">
                 <div class="experience-item">
-                  <span>¿Qué pretendemos lograr?</span>
-                    <h5 class="title">Conseguir la implementación de las herramientas que permitan una participación ciudadana y un ejercicio real de la transparencia en todos los asuntos municipales.
-                    </h5>
-                    <!-- <a routerLink='/about'>Read More</a> -->
-                </div> <!-- experience item -->
+                    <span>¿Qué pretendemos lograr?</span>
+                    <h3>Conseguir la implementación de las herramientas que permitan una participación
+                        ciudadana y un ejercicio real de la transparencia en todos los asuntos municipales.
+                    </h3>
+                </div>
             </div>
         </div>
-
-        <!-- <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".2s">
-                <div class="single-experience mt-30">
-                    <img src="assets/images/experience-1.jpg" alt="">
-                    <div class="experience-overlay">
-                        <h5 class="title">Design & Development</h5>
-                        <p>The functional goal of technical content is to help people use a product.</p>
-                        <a routerLink='/service-detail'>Read More</a>
-                        <i class="fal fa-laptop-code"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                <div class="single-experience mt-30">
-                    <img src="assets/images/experience-2.jpg" alt="">
-                    <div class="experience-overlay">
-                        <h5 class="title">Technical Support</h5>
-                        <p>The functional goal of technical content is to help people use a product.</p>
-                        <a routerLink='/service-detail'>Read More</a>
-                        <i class="fal fa-headphones-alt"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
-                <div class="single-experience mt-30">
-                    <img src="assets/images/experience-3.jpg" alt="">
-                    <div class="experience-overlay">
-                        <h5 class="title">Digital Marketing</h5>
-                        <p>The functional goal of technical content is to help people use a product.</p>
-                        <a routerLink='/service-detail'>Read More</a>
-                        <i class="fal fa-analytics"></i>
-                    </div>
-                </div>
-
-            </div>
-        </div> -->
-
-
     </div> <!-- container -->
 </div>
 <!--====== ABOUT EXPERIENCE PART ENDS ======-->
@@ -165,51 +126,68 @@
                     <div class="accordion" id="accordionExample">
                         <div class="card wow fadeInLeft" data-wow-duration=".1.2s" data-wow-delay=".2s">
                             <div class="card-header" id="headingOne">
-                                <a class="" href="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <a class="" href="" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
                                     <i class="fal fa-magic"></i>¿Como puedo colaborar?
                                 </a>
                             </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p>Puedes hacerlo de muchas formas, buscando información, escribiendo informes sobre la documentación existente, colaborando en el diseño de la página.
-                                      <br>Si estas interesado puedes enviar un correo a
-                                      info@ocmjerez.org</p>
+                                    <p>Puedes hacerlo de muchas formas, buscando información, escribiendo informes sobre
+                                        la documentación existente, colaborando en el diseño de la página.
+                                        <br>Si estas interesado puedes enviar un correo a
+                                        info@ocmjerez.org
+                                    </p>
                                 </div>
                             </div>
                         </div> <!-- card -->
                         <div class="card wow fadeInLeft" data-wow-duration=".1.2s" data-wow-delay=".3s">
                             <div class="card-header" id="headingTwo">
-                                <a class="collapsed" href="" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <a class="collapsed" href="" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
                                     <i class="fal fa-magic"></i>¿El OCM depende del Ayuntamiento?
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p>No tenemos ninguna relación de dependencia con el Ayuntamiento, <span style = "color:red;  font-weight: bold">ni tampoco con partido político alguno.</span></p>
+                                    <p>No tenemos ninguna relación de dependencia con el Ayuntamiento, <span
+                                            style="color:red;  font-weight: bold">ni tampoco con partido político
+                                            alguno.</span></p>
                                 </div>
                             </div>
                         </div> <!-- card -->
                         <div class="card wow fadeInLeft" data-wow-duration=".1.2s" data-wow-delay=".4s">
                             <div class="card-header" id="headingThree">
-                                <a class="collapsed" href="" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <a class="collapsed" href="" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     <i class="fal fa-magic"></i>¿Como os financias?
                                 </a>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p>Unicamente con las cuotas de las personas socias. <span style = "color:red;  font-weight: bold">No recibimos ninguna subvención.</span></p>
+                                    <p>Unicamente con las cuotas de las personas socias. <span
+                                            style="color:red;  font-weight: bold">No recibimos ninguna
+                                            subvención.</span></p>
                                 </div>
                             </div>
                         </div> <!-- card -->
                         <div class="card wow fadeInLeft" data-wow-duration=".1.2s" data-wow-delay=".5s">
                             <div class="card-header" id="headingFour">
-                                <a class="collapsed" href="" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <a class="collapsed" href="" data-toggle="collapse" data-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
                                     <i class="fal fa-magic"></i>¿Son públicos vuestros estatutos?
                                 </a>
                             </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
-                                   <p>¡Claro!, puedes leerlos en este   <a href="https://drive.google.com/file/d/1PTl2iQaPohpUslFkI0NnZgEJWgyucTnY/view?usp=sharing" style = "padding-left: 4px;" target="_blank" rel="nofollow"><i></i>enlace</a></p>
+                                    <p>¡Claro!, puedes leerlos en este <a
+                                            href="https://drive.google.com/file/d/1PTl2iQaPohpUslFkI0NnZgEJWgyucTnY/view?usp=sharing"
+                                            style="padding-left: 4px;" target="_blank" rel="nofollow"><i></i>enlace</a>
+                                    </p>
                                 </div>
                             </div>
                         </div> <!-- card -->
