@@ -1,19 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { PreloaderComponent } from './components/layouts/preloader/preloader.component';
-import { BlogsidebarComponent } from './components/layouts/blogsidebar/blogsidebar.component';
-import { HeaderComponent } from './components/layouts/header/header.component';
-import { FooterComponent } from './components/layouts/footer/footer.component';
 import { AboutComponent } from './components/pages/about/about.component';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { BlogdetailsComponent } from './components/pages/blogdetails/blogdetails.component';
+import { BlogsidebarComponent } from './components/layouts/blogsidebar/blogsidebar.component';
 import { BlogstandardComponent } from './components/pages/blogstandard/blogstandard.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ErrorComponent } from './components/pages/error/error.component';
 import { FaqComponent } from './components/pages/faq/faq.component';
+import { FooterComponent } from './components/layouts/footer/footer.component';
+import { HeaderComponent } from './components/layouts/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import { PreloaderComponent } from './components/layouts/preloader/preloader.component';
 
 // Entradas blog
 import { Blogentrada1Component } from './components/pages/blogentradas/blogentrada1/blogentrada1.component';
@@ -24,18 +24,18 @@ import { LoQueSeVeComponent } from './components/pages/blogentradas/lo-que-se-ve
 
 @NgModule({
   declarations: [
-    AppComponent,
-    PreloaderComponent,
-    BlogsidebarComponent,
-    HeaderComponent,
-    FooterComponent,
     AboutComponent,
+    AppComponent,
     BlogdetailsComponent,
+    BlogsidebarComponent,
     BlogstandardComponent,
     ContactComponent,
     ErrorComponent,
     FaqComponent,
+    FooterComponent,
+    HeaderComponent,
     HomeComponent,
+    PreloaderComponent,
     Blogentrada1Component,
     Blogentrada2Component,
     Blogentrada3Component,
