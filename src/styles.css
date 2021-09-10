@@ -4,3 +4,9 @@ p{
       text-justify:auto;
   }
   
+
+  .mam-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
