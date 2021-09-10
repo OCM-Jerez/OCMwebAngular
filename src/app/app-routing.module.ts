@@ -11,6 +11,7 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { Blogentrada1Component } from './components/pages/blogentradas/blogentrada1/blogentrada1.component';
 import { Blogentrada2Component } from './components/pages/blogentradas/blogentrada2/blogentrada2.component';
 import { Blogentrada3Component } from './components/pages/blogentradas/blogentrada3/blogentrada3.component';
+import { LoQueSeVeComponent } from './components/pages/blogentradas/lo-que-se-ve/lo-que-se-ve.component';
 
 
 // Entradas blog
@@ -47,6 +48,11 @@ const routes: Routes = [
     path: 'blogentrada3',
     component: Blogentrada3Component,
   },
+  {
+    path: 'loQueSeVe',
+    component: LoQueSeVeComponent,
+  },
+
 
   // Final entradas blog
 

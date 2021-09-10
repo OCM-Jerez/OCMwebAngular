@@ -19,6 +19,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { Blogentrada1Component } from './components/pages/blogentradas/blogentrada1/blogentrada1.component';
 import { Blogentrada2Component } from './components/pages/blogentradas/blogentrada2/blogentrada2.component';
 import { Blogentrada3Component } from './components/pages/blogentradas/blogentrada3/blogentrada3.component';
+import { LoQueSeVeComponent } from './components/pages/blogentradas/lo-que-se-ve/lo-que-se-ve.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { Blogentrada3Component } from './components/pages/blogentradas/blogentra
     HomeComponent,
     Blogentrada1Component,
     Blogentrada2Component,
-    Blogentrada3Component
+    Blogentrada3Component,
+    LoQueSeVeComponent
   ],
   imports: [
     BrowserModule,
