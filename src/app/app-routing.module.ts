@@ -12,6 +12,7 @@ import { Blogentrada1Component } from './components/pages/blogentradas/blogentra
 import { Blogentrada2Component } from './components/pages/blogentradas/blogentrada2/blogentrada2.component';
 import { Blogentrada3Component } from './components/pages/blogentradas/blogentrada3/blogentrada3.component';
 import { LoQueSeVeComponent } from './components/pages/blogentradas/lo-que-se-ve/lo-que-se-ve.component';
+import { Comujesa202109Component } from './components/pages/blogentradas/comujesa202109/comujesa202109.component';
 
 const routes: Routes = [
   {
@@ -47,6 +48,11 @@ const routes: Routes = [
   {
     path: 'loQueSeVe',
     component: LoQueSeVeComponent,
+  },
+
+  {
+    path: 'comujesa202109',
+    component: Comujesa202109Component,
   },
   // Final entradas blog
 
