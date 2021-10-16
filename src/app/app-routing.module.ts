@@ -13,6 +13,7 @@ import { Blogentrada2Component } from './components/pages/blogentradas/blogentra
 import { Blogentrada3Component } from './components/pages/blogentradas/blogentrada3/blogentrada3.component';
 import { LoQueSeVeComponent } from './components/pages/blogentradas/lo-que-se-ve/lo-que-se-ve.component';
 import { Comujesa202109Component } from './components/pages/blogentradas/comujesa202109/comujesa202109.component';
+import { CuentasGenerales20192020Component } from './components/pages/blogentradas/cuentas-generales20192020/cuentas-generales20192020.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,11 @@ const routes: Routes = [
   {
     path: 'comujesa202109',
     component: Comujesa202109Component,
+  },
+
+  {
+    path: 'cuentasGenerales20192020',
+    component: CuentasGenerales20192020Component,
   },
   // Final entradas blog
 
