@@ -22,6 +22,7 @@ import { Blogentrada3Component } from './components/pages/blogentradas/blogentra
 import { LoQueSeVeComponent } from './components/pages/blogentradas/lo-que-se-ve/lo-que-se-ve.component';
 import { Comujesa202109Component } from './components/pages/blogentradas/comujesa202109/comujesa202109.component';
 import { CuentasGenerales20192020Component } from './components/pages/blogentradas/cuentas-generales20192020/cuentas-generales20192020.component';
+import { JerezNoLesInteresaComponent } from './components/pages/blogentradas/jerez-no-les-interesa/jerez-no-les-interesa.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { CuentasGenerales20192020Component } from './components/pages/blogentrad
     Blogentrada3Component,
     LoQueSeVeComponent,
     Comujesa202109Component,
-    CuentasGenerales20192020Component
+    CuentasGenerales20192020Component,
+    JerezNoLesInteresaComponent
   ],
   imports: [
     BrowserModule,
