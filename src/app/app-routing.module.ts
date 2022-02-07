@@ -17,6 +17,7 @@ import { CuentasGenerales20192020Component } from './components/pages/blogentrad
 import { JerezNoLesInteresaComponent } from './components/pages/blogentradas/jerez-no-les-interesa/jerez-no-les-interesa.component';
 import { Jerez14999Component } from './components/pages/blogentradas/jerez14999/jerez14999.component';
 import { DescontrolPresupuestarioComponent } from './components/pages/blogentradas/descontrol-presupuestario/descontrol-presupuestario.component';
+import { AQuienLeImportaComponent } from './components/pages/blogentradas/a-quien-le-importa/a-quien-le-importa.component';
 
 const routes: Routes = [
   {
@@ -75,6 +76,11 @@ const routes: Routes = [
     path: 'DescontrolPresupuestario',
     component: DescontrolPresupuestarioComponent,
   },
+  {
+    path: 'AQuienLeImporta',
+    component: AQuienLeImportaComponent,
+  },
+
   // Final entradas blog
 
   {
