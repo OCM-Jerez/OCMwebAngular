@@ -46,7 +46,7 @@
 - [Angular](https://angular.io) 
 
 # Librerias usadas 📖
-- <a href= 'https://themeforest.net/item/omnivus-angular-9-it-solutions-digital-services-template/27458157' target="_blank"> Plantilla Omnibus</a>
+- <a href= 'https://themeforest.net/item/omnivus-angular-9-it-solutions-digital-services-template/27458157' target="_blank"> Plantilla Omnivus</a>
 
 
 # Licencia ⚖
