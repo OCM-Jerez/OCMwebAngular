@@ -18,6 +18,9 @@ import { JerezNoLesInteresaComponent } from './components/pages/blogentradas/jer
 import { Jerez14999Component } from './components/pages/blogentradas/jerez14999/jerez14999.component';
 import { DescontrolPresupuestarioComponent } from './components/pages/blogentradas/descontrol-presupuestario/descontrol-presupuestario.component';
 import { AQuienLeImportaComponent } from './components/pages/blogentradas/a-quien-le-importa/a-quien-le-importa.component';
+import { MotivosPreocupacionComponent } from './components/pages/blogentradas/motivos-preocupacion/motivos-preocupacion.component';
+import { TsunamiEconomicoComponent } from './components/pages/blogentradas/tsunami-economico/tsunami-economico.component';
+import { AutobusesAccesibilidadComponent } from './components/pages/blogentradas/autobuses-accesibilidad/autobuses-accesibilidad.component';
 
 const routes: Routes = [
   {
@@ -80,6 +83,19 @@ const routes: Routes = [
     path: 'AQuienLeImporta',
     component: AQuienLeImportaComponent,
   },
+  {
+    path: 'MotivosPreocupacion',
+    component: MotivosPreocupacionComponent,
+  },
+  {
+    path: 'TsunamiEconomico',
+    component: TsunamiEconomicoComponent,
+  },
+  {
+    path: 'AutobusesAccesibilidad',
+    component: AutobusesAccesibilidadComponent,
+  },
+
 
   // Final entradas blog
 

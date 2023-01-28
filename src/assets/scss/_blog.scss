@@ -1,19 +1,16 @@
-
-
-
 /*===========================
     10.BLOG css 
 ===========================*/
 
-.blog-area{
-	& .section-title{
-		& .title{
-			&::before{
-				content: 'news';
+.blog-area {
+	& .section-title {
+		& .title {
+			&::before {
+				content: "news";
 			}
 		}
 	}
-	& .single-blog{
+	& .single-blog {
 		border: 10px solid $border-color;
 		padding: 40px;
 		@include transition(0.3s);
@@ -29,18 +26,35 @@
 		@media #{$sm} {
 			padding: 40px 40px;
 		}
-		& ul{
-			li{
+		& ul {
+			li {
 				display: inline-block;
 				font-size: 14px;
 				padding-right: 15px;
-				& i{
+				& i {
 					color: $theme-color;
 					padding-right: 6px;
 				}
 			}
 		}
-		& .title{
+		& .title {
+			font-size: 22px;
+			padding-top: 8px;
+			color: red;
+			@media #{$lg} {
+				font-size: 19px;
+			}
+			@media #{$xs} {
+				font-size: 18px;
+			}
+			@media #{$sm} {
+				font-size: 22px;
+			}
+			& a {
+				color: $heading-color;
+			}
+		}
+		& .subTitle {
 			font-size: 22px;
 			padding-top: 8px;
 			@media #{$lg} {
@@ -52,23 +66,23 @@
 			@media #{$sm} {
 				font-size: 22px;
 			}
-			& a{
-				color: $heading-color;
+			& a {
+				color: red;
 			}
 		}
-		& p{
+		& p {
 			font-size: 14px;
 			padding-top: 20px;
 			padding-bottom: 7px;
 		}
-		& > a{
+		& > a {
 			color: $text-color;
 			font-weight: 700;
 			@include transition(0.3s);
 		}
-		&:hover{
+		&:hover {
 			border-color: $theme-color;
-			& > a{
+			& > a {
 				color: $theme-color;
 			}
 		}
