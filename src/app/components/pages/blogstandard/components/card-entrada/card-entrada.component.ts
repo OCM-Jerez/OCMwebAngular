@@ -10,6 +10,8 @@ export class CardEntradaComponent implements OnInit {
   @Input() author = '';
   @Input() date = '';
   @Input() extract = '';
+  @Input() extract1 = '';
+  @Input() extract2 = '';
   @Input() routerLink = '';
   @Input() new = false;
 
