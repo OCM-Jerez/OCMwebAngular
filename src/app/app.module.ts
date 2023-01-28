@@ -29,6 +29,7 @@ import { AQuienLeImportaComponent } from './components/pages/blogentradas/a-quie
 import { MotivosPreocupacionComponent } from './components/pages/blogentradas/motivos-preocupacion/motivos-preocupacion.component';
 import { TsunamiEconomicoComponent } from './components/pages/blogentradas/tsunami-economico/tsunami-economico.component';
 import { AutobusesAccesibilidadComponent } from './components/pages/blogentradas/autobuses-accesibilidad/autobuses-accesibilidad.component';
+import { CardEntradaComponent } from './components/pages/blogstandard/components/card-entrada/card-entrada.component';
 
 
 @NgModule({
@@ -57,11 +58,12 @@ import { AutobusesAccesibilidadComponent } from './components/pages/blogentradas
     AQuienLeImportaComponent,
     MotivosPreocupacionComponent,
     TsunamiEconomicoComponent,
-    AutobusesAccesibilidadComponent
+    AutobusesAccesibilidadComponent,
+    CardEntradaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

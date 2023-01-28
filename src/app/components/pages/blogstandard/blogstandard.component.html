@@ -1,23 +1,4 @@
 <app-header></app-header>
-<!--====== PAGE TITLE PART START ======-->
-<div class="page-title-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="page-title-item text-center">
-                    <h2 id="demotext">Blog</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a routerLink='/' style="color: white">Inicio </a></li>
-
-                        </ol>
-                    </nav>
-                </div> <!-- page title -->
-            </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
-</div>
-<!--====== PAGE TITLE PART ENDS ======-->
 
 <!--====== BLOG STANDARD PART START ======-->
 <div class="blog-standard-area pt-90 pb-120">
@@ -25,78 +6,24 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="blog-standard">
-                    <div class="single-blog-standard mt-30">
-                        <!-- <div class="blog-standard-thumb">
-                            <img src="assets/images/blog/entrada1/costeServiciosObligatorios.png" alt="blog">
-                        </div> -->
+                    <div class="single-blog-standard">
+                        <br>
+                        <br>
+
+                        <app-card-entrada [title]="'Autobuses Urbanos y Accesibilidad en Jerez'" [author]="'Por OCM'"
+                            [date]="'26 enero 2023'"
+                            [extract]="' ¿Ignorancia, insensibilidad o incumplimiento ante la discapacidad?'" [new]=true
+                            [routerLink]="'/AutobusesAccesibilidad'">
+                        </app-card-entrada>
+
+                        <app-card-entrada [title]="'EL TSUNAMI (ECONÓMICO) LLEGARÁ A JEREZ EN 2024…'"
+                            [author]="'Por OCM'" [date]="'19 marzo 2022'"
+                            [extract]="' Los jerezanos recordaremos en 2024 a los que siguen alimentando el tsunami económico que se nos viene encima…'"
+                            [routerLink]="'/TsunamiEconomico'">
+                        </app-card-entrada>
 
 
-                        <!-- Inicio entrada  -->
-                        <div class="blog-standard-content">
-                            <h2 class="title">
-                                Autobuses Urbanos y Accesibilidad en Jerez
-                                <br>
-                            </h2>
-                            <p style="font-size: small;">
-                                <img style="width: 32px; height: 32px" src="assets/images/OCMicono.ico" alt="">
-                                <span>por</span> OCM
-                                <span style="color: rgb(37, 7, 87)">26 enero 2023</span>
-                                <span style="color: red; font-weight: bold">&nbsp;&nbsp;Nueva entrada&nbsp;</span>
-                                <i class="fal fa-exclamation-circle fa-2x"></i>
-                                <br />
-                            </p>
-                            <p style="
-text-align: justify;
-color: black;
-padding-top: 4px;
-padding-bottom: 10px;
-">
-                                ¿Ignorancia, insensibilidad o incumplimiento ante la discapacidad?
 
-                            </p>
-                            <a class="main-btn" routerLink="/AutobusesAccesibilidad">Leer más... <i
-                                    class="fal fa-long-arrow-right"></i></a>
-                        </div>
-                        <!-- Final entrada  -->
-
-
-                        <!-- Inicio entrada  -->
-                        <div class="blog-standard-content">
-                            <h2 class="title">
-                                EL TSUNAMI (ECONÓMICO) LLEGARÁ A JEREZ EN 2024…
-                                <br>
-                            </h2>
-                            <p>
-                                <img style="width: 32px; height: 32px" src="assets/images/OCMicono.ico" alt="">
-                                <span>por</span> OCM
-                                <span style="color: rgb(37, 7, 87)">19 marzo 2022</span>
-                                <!-- <span style="color: red; font-weight: bold">&nbsp;&nbsp;Nueva entrada&nbsp;</span> -->
-                                <!-- <i class="fal fa-exclamation-circle fa-2x"></i> -->
-                                <br />
-                            </p>
-                            <p style="
-text-align: justify;
-color: black;
-padding-top: 4px;
-padding-bottom: 10px;
-">
-                                No sé si tendrá razón un buen amigo, que me dijo que “Jerez es como Mónaco, pero en
-                                tieso”… Lo que sí sé es que los jerezanos recordaremos en 2024 a los que siguen
-                                alimentando el tsunami económico que se nos viene encima…
-                                <br>
-                                <br>
-                                Ahora que ya he conseguido atraer su atención, les explicaré qué quiero decir.
-                                El próximo lunes 21, el pleno del ayuntamiento de Jerez votará la aprobación de un nuevo
-                                préstamo de 7 millones de euros con Hacienda, tras lo que nuestra deuda financiera
-                                seguirá creciendo, ya muy por encima de los 900 millones de euros (la deuda de Emuvijesa
-                                también hay que contarla, Delegada, y la mayoría la tenemos con Hacienda, no con los
-                                bancos…).
-
-                            </p>
-                            <a class="main-btn" routerLink="/TsunamiEconomico">Leer más... <i
-                                    class="fal fa-long-arrow-right"></i></a>
-                        </div>
-                        <!-- Final entrada  -->
 
 
                         <!-- Inicio entrada  -->
